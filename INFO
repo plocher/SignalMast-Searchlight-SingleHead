@@ -5,4 +5,4 @@ fabricated: no
 fab_date:  
 status: experimental
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, Signal]
