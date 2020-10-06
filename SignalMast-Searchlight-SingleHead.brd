@@ -332,8 +332,8 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="CON1" library="SPCoast" package="2X3-SMD_EDGE" value="" x="6.35" y="1.905"/>
-<element name="LED1" library="SPCoast" package="APA102" value="LED-APA102" x="4.445" y="42.926" smashed="yes">
+<element name="CON1" library="SPCoast" package="2X3-SMD_EDGE" value="2x3-0.100" x="6.35" y="1.905"/>
+<element name="LED1" library="SPCoast" package="APA102" value="RGB" x="4.445" y="42.926" smashed="yes">
 <attribute name="HEIGHT" value="1mm" x="4.445" y="42.926" size="1.778" layer="27" font="vector" ratio="10" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=474-COM-14608" x="4.445" y="42.926" size="1.778" layer="27" font="vector" ratio="10" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="4.445" y="42.926" size="1.778" layer="27" font="vector" ratio="10" display="off"/>

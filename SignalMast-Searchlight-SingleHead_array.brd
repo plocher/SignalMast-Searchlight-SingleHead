@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mm" unit="mm" style="lines" multiple="5" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -653,30 +653,30 @@ design rules under a new name.
 </pass>
 </autorouter>
 <elements>
-<element name="CON1X11" library="SPCoast" package="2X3-SMD_EDGE" value="" x="6.35" y="1.905"/>
-<element name="LED1X11" library="SPCoast" package="APA102" value="" x="4.445" y="42.926"/>
-<element name="CON1X12" library="SPCoast" package="2X3-SMD_EDGE" value="" x="69.85" y="98.095" rot="R180"/>
-<element name="LED1X12" library="SPCoast" package="APA102" value="" x="71.755" y="57.074" rot="R180"/>
-<element name="CON1X21" library="SPCoast" package="2X3-SMD_EDGE" value="" x="19.05" y="1.905"/>
-<element name="LED1X21" library="SPCoast" package="APA102" value="" x="17.145" y="42.926"/>
-<element name="CON1X22" library="SPCoast" package="2X3-SMD_EDGE" value="" x="57.15" y="98.095" rot="R180"/>
-<element name="LED1X22" library="SPCoast" package="APA102" value="" x="59.055" y="57.074" rot="R180"/>
-<element name="CON1X31" library="SPCoast" package="2X3-SMD_EDGE" value="" x="31.75" y="1.905"/>
-<element name="LED1X31" library="SPCoast" package="APA102" value="" x="29.845" y="42.926"/>
-<element name="CON1X32" library="SPCoast" package="2X3-SMD_EDGE" value="" x="44.45" y="98.095" rot="R180"/>
-<element name="LED1X32" library="SPCoast" package="APA102" value="" x="46.355" y="57.074" rot="R180"/>
-<element name="CON1X41" library="SPCoast" package="2X3-SMD_EDGE" value="" x="44.45" y="1.905"/>
-<element name="LED1X41" library="SPCoast" package="APA102" value="" x="42.545" y="42.926"/>
-<element name="CON1X42" library="SPCoast" package="2X3-SMD_EDGE" value="" x="31.75" y="98.095" rot="R180"/>
-<element name="LED1X42" library="SPCoast" package="APA102" value="" x="33.655" y="57.074" rot="R180"/>
-<element name="CON1X51" library="SPCoast" package="2X3-SMD_EDGE" value="" x="57.15" y="1.905"/>
-<element name="LED1X51" library="SPCoast" package="APA102" value="" x="55.245" y="42.926"/>
-<element name="CON1X52" library="SPCoast" package="2X3-SMD_EDGE" value="" x="19.05" y="98.095" rot="R180"/>
-<element name="LED1X52" library="SPCoast" package="APA102" value="" x="20.955" y="57.074" rot="R180"/>
-<element name="CON1X61" library="SPCoast" package="2X3-SMD_EDGE" value="" x="69.85" y="1.905"/>
-<element name="LED1X61" library="SPCoast" package="APA102" value="" x="67.945" y="42.926"/>
-<element name="CON1X62" library="SPCoast" package="2X3-SMD_EDGE" value="" x="6.35" y="98.095" rot="R180"/>
-<element name="LED1X62" library="SPCoast" package="APA102" value="" x="8.255" y="57.074" rot="R180"/>
+<element name="CON1X11" library="SPCoast" package="2X3-SMD_EDGE" value="2x3-0.100" x="6.35" y="1.905"/>
+<element name="LED1X11" library="SPCoast" package="APA102" value="RGB" x="4.445" y="42.926"/>
+<element name="CON1X12" library="SPCoast" package="2X3-SMD_EDGE" value="2x3-0.100" x="69.85" y="98.095" rot="R180"/>
+<element name="LED1X12" library="SPCoast" package="APA102" value="RGB" x="71.755" y="57.074" rot="R180"/>
+<element name="CON1X21" library="SPCoast" package="2X3-SMD_EDGE" value="2x3-0.100" x="19.05" y="1.905"/>
+<element name="LED1X21" library="SPCoast" package="APA102" value="RGB" x="17.145" y="42.926"/>
+<element name="CON1X22" library="SPCoast" package="2X3-SMD_EDGE" value="2x3-0.100" x="57.15" y="98.095" rot="R180"/>
+<element name="LED1X22" library="SPCoast" package="APA102" value="RGB" x="59.055" y="57.074" rot="R180"/>
+<element name="CON1X31" library="SPCoast" package="2X3-SMD_EDGE" value="2x3-0.100" x="31.75" y="1.905"/>
+<element name="LED1X31" library="SPCoast" package="APA102" value="RGB" x="29.845" y="42.926"/>
+<element name="CON1X32" library="SPCoast" package="2X3-SMD_EDGE" value="2x3-0.100" x="44.45" y="98.095" rot="R180"/>
+<element name="LED1X32" library="SPCoast" package="APA102" value="RGB" x="46.355" y="57.074" rot="R180"/>
+<element name="CON1X41" library="SPCoast" package="2X3-SMD_EDGE" value="2x3-0.100" x="44.45" y="1.905"/>
+<element name="LED1X41" library="SPCoast" package="APA102" value="RGB" x="42.545" y="42.926"/>
+<element name="CON1X42" library="SPCoast" package="2X3-SMD_EDGE" value="2x3-0.100" x="31.75" y="98.095" rot="R180"/>
+<element name="LED1X42" library="SPCoast" package="APA102" value="RGB" x="33.655" y="57.074" rot="R180"/>
+<element name="CON1X51" library="SPCoast" package="2X3-SMD_EDGE" value="2x3-0.100" x="57.15" y="1.905"/>
+<element name="LED1X51" library="SPCoast" package="APA102" value="RGB" x="55.245" y="42.926"/>
+<element name="CON1X52" library="SPCoast" package="2X3-SMD_EDGE" value="2x3-0.100" x="19.05" y="98.095" rot="R180"/>
+<element name="LED1X52" library="SPCoast" package="APA102" value="RGB" x="20.955" y="57.074" rot="R180"/>
+<element name="CON1X61" library="SPCoast" package="2X3-SMD_EDGE" value="2x3-0.100" x="69.85" y="1.905"/>
+<element name="LED1X61" library="SPCoast" package="APA102" value="RGB" x="67.945" y="42.926"/>
+<element name="CON1X62" library="SPCoast" package="2X3-SMD_EDGE" value="2x3-0.100" x="6.35" y="98.095" rot="R180"/>
+<element name="LED1X62" library="SPCoast" package="APA102" value="RGB" x="8.255" y="57.074" rot="R180"/>
 </elements>
 <signals>
 <signal name="CINX11">

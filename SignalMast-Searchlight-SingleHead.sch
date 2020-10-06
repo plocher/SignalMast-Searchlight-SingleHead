@@ -1456,8 +1456,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/COM-14608.pdf
 </classes>
 <parts>
 <part name="FRAME1" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
-<part name="CON1" library="SPCoast" deviceset="CONNECTOR-M06" device="2X3-SMD"/>
-<part name="LED1" library="SPCoast" deviceset="LED-APA102" device=""/>
+<part name="CON1" library="SPCoast" deviceset="CONNECTOR-M06" device="2X3-SMD" value="2x3-0.100"/>
+<part name="LED1" library="SPCoast" deviceset="LED-APA102" device="" value="RGB"/>
 </parts>
 <sheets>
 <sheet>
